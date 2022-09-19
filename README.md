@@ -1,0 +1,1 @@
+# curso-scope-closure_2022

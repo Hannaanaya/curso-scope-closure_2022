@@ -1,0 +1,14 @@
+-SCOPE determina el alcance de las variables, funciones y objetos desde distintas partes del código
+Tipos de scope: Global-Function-Block
+
+-scope local de función (function scope) es el entorno donde las variables locales solo se pueden acceder desde una función del programa.
+En este scope no importa que las variables sean declaradas con var, let o const. Sin embargo, ten presente que se puede redeclarar una variable con var, pero no con let y const.
+
+-El scope local de bloque (scope block) es el entorno donde las variables locales únicamente pueden ser accedidas desde un bloque de código del programa. 
+
+-Hoisting es un término para describir que la declaración de variables y funciones son desplazadas a la parte superior del scope más cercano.
+
+-El modo estricto es una funcionalidad que le permite al motor de JavaScript cambiar la manera en que ejecuta el código. En este modo, se reduce las cosas que podemos hacer, esto es bueno porque permite manejar errores que son poco perceptibles o que el motor de JavaScript sobreentiende y ayuda a su compilación para corregirlos.
+Este en el código colocando en la primera línea "use strict" para todo el archivo. También puede utilizarse en la primera línea de una función, pero no para un bloque en específico.
+
+-Un closure permite acceder al scope de una función exterior desde una función interior. En JavaScript, los closures se crean cada vez que una función se genera. A diferencia de otros conceptos como funciones, variables u otros, los closures no se utilizan todas las veces.
